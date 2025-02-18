@@ -16,3 +16,4 @@ EXPOSE 8080
 
 # Start the server
 CMD ["erl", "-pa", "_build/default/lib/*/ebin", "-s", "chat_server", "start"]
+
